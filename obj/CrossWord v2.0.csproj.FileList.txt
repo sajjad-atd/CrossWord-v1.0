@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CrossWord v2.0.Properties.Resources.resources
+obj\Debug\CrossWord v2.0.csproj.GenerateResource.Cache
+obj\Debug\CrossWordv20.frmMain.resources
+bin\Debug\CrossWord v2.0.exe
+bin\Debug\CrossWord v2.0.pdb
+obj\Debug\CrossWord v2.0.exe
+obj\Debug\CrossWord v2.0.pdb
+obj\Debug\CrossWordv20.frmDictionary.resources

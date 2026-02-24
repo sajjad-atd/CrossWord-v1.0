@@ -1,0 +1,9 @@
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWord v2.0.exe
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWord v2.0.pdb
+F:\My Prog\C#\C#2005\CrossWord v2.0\bin\Debug\CrossWord v2.0.exe
+F:\My Prog\C#\C#2005\CrossWord v2.0\bin\Debug\CrossWord v2.0.pdb
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\ResolveAssemblyReference.cache
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWordv20.frmDictionary.resources
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWordv20.frmMain.resources
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWord v2.0.Properties.Resources.resources
+F:\My Prog\C#\C#2005\CrossWord v2.0\obj\Debug\CrossWord v2.0.csproj.GenerateResource.Cache
