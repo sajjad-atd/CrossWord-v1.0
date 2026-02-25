@@ -1,0 +1,2 @@
+obj\Debug\CrossWord.exe
+obj\Debug\CrossWord.pdb

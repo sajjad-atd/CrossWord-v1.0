@@ -1,19 +1,14 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{446FB307-8C83-46D6-934E-7E29C99D6A39}</ProjectGuid>
+    <ProjectGuid>{878E1D0B-4679-4BCF-B866-F04A8ACE650D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CrossWord v2.0</RootNamespace>
-    <AssemblyName>CrossWord v2.0</AssemblyName>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <RootNamespace>CrossWord</RootNamespace>
+    <AssemblyName>CrossWord</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,48 +36,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBA\Chapter.cs" />
-    <Compile Include="DBA\Class.cs" />
+    <Compile Include="DBA\DBA.cs" />
     <Compile Include="DBA\Dictionary.cs" />
     <Compile Include="DBA\Student.cs" />
-    <Compile Include="DBA\Subject.cs" />
     <Compile Include="DBA\WordLearned.cs" />
-    <Compile Include="DBA\DBA.cs" />
-    <Compile Include="FORMS\frmChapter.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmChapter.Designer.cs">
-      <DependentUpon>frmChapter.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FORMS\frmClass.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmClass.Designer.cs">
-      <DependentUpon>frmClass.cs</DependentUpon>
-    </Compile>
     <Compile Include="FORMS\frmDictionary.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\frmDictionary.Designer.cs">
+    <Compile Include="FORMS\frmDictionary.designer.cs">
       <DependentUpon>frmDictionary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FORMS\frmStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmStudent.Designer.cs">
-      <DependentUpon>frmStudent.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FORMS\frmSubject.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmSubject.Designer.cs">
-      <DependentUpon>frmSubject.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FORMS\frmWordLearned.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmWordLearned.Designer.cs">
-      <DependentUpon>frmWordLearned.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\frmMain.cs">
       <SubType>Form</SubType>
@@ -90,15 +52,45 @@
     <Compile Include="FORMS\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\frmCrossWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmCrossWord.Designer.cs">
+      <DependentUpon>frmCrossWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmLessonList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmLessonList.Designer.cs">
+      <DependentUpon>frmLessonList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmStudent.designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\frmCrossWord.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCrossWord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\frmDictionary.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmDictionary.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmLessonList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLessonList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\frmMain.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmStudent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

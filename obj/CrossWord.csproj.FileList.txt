@@ -1,0 +1,12 @@
+bin\Debug\CrossWord.exe
+bin\Debug\CrossWord.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CrossWord.frmCrossWord.resources
+obj\Debug\CrossWord.frmMain.resources
+obj\Debug\CrossWord.Properties.Resources.resources
+obj\Debug\CrossWord.csproj.GenerateResource.Cache
+obj\Debug\CrossWord.exe
+obj\Debug\CrossWord.pdb
+obj\Debug\CrossWord.frmLessonList.resources
+obj\Debug\CrossWord.frmDictionary.resources
+obj\Debug\CrossWord.frmStudent.resources
